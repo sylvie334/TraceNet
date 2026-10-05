@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TraceNet - Sign Up</title>
+</head>
+
+<body style="background-color: aliceblue;">
+
+    <h1 style="background-color: blue; color: white; padding: 15px;">
+        TraceNet Sign Up
+    </h1>
+
+    <p>
+        Create your TraceNet account to start managing and tracking your device.
+    </p>
+
+    <form>
+
+        <label for="fullname"><b>Full Name:</b></label>
+        <br>
+        <input type="text" id="fullname" name="fullname"
+               placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <label for="email"><b>Email Address:</b></label>
+        <br>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="phone"><b>Phone Number:</b></label>
+        <br>
+        <input type="tel" id="phone" name="phone"
+               placeholder="Enter your phone number" required>
+
+        <br><br>
+
+        <label for="password"><b>Password:</b></label>
+        <br>
+        <input type="password" id="password" name="password"
+               placeholder="Create a password" required>
+
+        <br><br>
+
+        <label for="confirm"><b>Confirm Password:</b></label>
+        <br>
+        <input type="password" id="confirm" name="confirm"
+               placeholder="Confirm your password" required>
+
+        <br><br>
+
+        <label for="device"><b>Device Type:</b></label>
+        <br>
+
+        <select id="device" name="device">
+            <option value="">Select device</option>
+            <option value="android">Android</option>
+            <option value="ios">iOS</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" id="terms" required>
+        <label for="terms">
+            I agree to the TraceNet terms and privacy policy.
+        </label>
+
+        <br><br>
+
+        <button type="submit"
+                style="background-color: blue; color: white;
+                padding: 10px 20px; border: none;
+                border-radius: 5px;">
+            <b>Create Account</b>
+        </button>
+
+        <button type="reset"
+                style="padding: 10px 20px;
+                border-radius: 5px;">
+            Clear
+        </button>
+
+    </form>
+
+    <br>
+
+    <!-- BACK TO HOME PAGE -->
+    <a href="index.html">
+        <button type="button">
+            Back to TraceNet
+        </button>
+    </a>
+
+</body>
+</html>
