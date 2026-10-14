@@ -10,7 +10,7 @@
 style="background-image: url('Images/backgroundinterface.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;">
     <nav>
         <a href="index.html">Home</a>
@@ -96,6 +96,76 @@ style="background-image: url('Images/backgroundinterface.png');
 <br><a href="signup.html">
     <button><b>click to sign-in</b></button>
 </a>
+
+<h2>Register Your Phone</h2>
+
+<form action="#" method="post">
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname"
+           placeholder="Enter your full name" required>
+    <br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"
+           placeholder="Enter your email" required>
+    <br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"
+           required minlength="8">
+    <br><br>
+
+    <label for="phone">Phone Model:</label><br>
+    <input type="text" id="phone" name="phone"
+           placeholder="e.g. iPhone 15 or Samsung S24" required>
+    <br><br>
+
+    <label for="device">Operating System:</label><br>
+    <input type="radio" id="android" name="device" value="Android">
+    <label for="android">Android</label>
+
+    <input type="radio" id="ios" name="device" value="iOS">
+    <label for="ios">iOS</label>
+    <br><br>
+
+    <input type="checkbox" id="consent" name="consent" required>
+    <label for="consent">I agree to register my device.</label>
+    <br><br>
+
+    <button type="submit">Register Phone</button>
+    <button type="reset">Clear Form</button>
+</form>
+
+
+<h2>Registered Devices</h2>
+
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>Device ID</th>
+        <th>Phone Model</th>
+        <th>Operating System</th>
+        <th>Status</th>
+    </tr>
+
+    <tr>
+        <td>001</td>
+        <td>Samsung Galaxy</td>
+        <td>Android</td>
+        <td>Online</td>
+    </tr>
+
+    <tr>
+        <td>000</td>
+        <td>iPhone</td>
+        <td>iOS</td>
+        <td>Offline</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Total Registered Devices</td>
+        <td>2</td>
+    </tr>
+</table>
 
 
 
